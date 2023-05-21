@@ -52,7 +52,7 @@ Black = 0.
 def add_layer(patches, colors, size=(24, 24), num=5,
               top_left=[0, 0],
               loc_diff=[3, -3],
-              ):
+            
     # add a rectangle
     top_left = np.array(top_left)
     loc_diff = np.array(loc_diff)
